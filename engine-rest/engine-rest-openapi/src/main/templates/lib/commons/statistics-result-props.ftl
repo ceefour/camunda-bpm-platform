@@ -6,6 +6,7 @@
     <@lib.property
         name = "instances"
         type = "integer"
+        format = "int32"
         nullable = false
         desc = "The total number of running process instances of this ${instanceType}."/>
 
