@@ -73,6 +73,7 @@
   <@lib.parameter name = "version"
       location = "query"
       type = "integer"
+      format="int32"
       desc = "Filter by process definition version."/>
 
   <@lib.parameter name = "latestVersion"
