@@ -37,6 +37,7 @@
   <@lib.parameter name = "deployedAt"
       location = "query"
       type = "string"
+      format="date-time"
       desc = "Filter by the deploy time of the deployment the process definition belongs to.
               Only selects process definitions that have been deployed at a specific time (exact match).
               By [default](${docsUrl}/reference/rest/overview/date-format/), the date must have the
